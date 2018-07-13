@@ -5,7 +5,7 @@
 {Ping-Pong is a group word game for children to teach them about division.Players take turns to count incrementally, replacing any number divisible by three with the word "ping", any number divisible by five with the word "pong" and any number divisible by both with fizz buzz.}
 ## Setup/Installation Requirements
 * Go to the internet.
-* Click the following link
+* Click the following link https://ommie189.github.io/Ping-Pong/ to get access to the game.
 * The link will navigate you to where the project is. While playing the game,enter a number of your choice and get to ping pong!
 
 {As I used HTML and CSS to build this code, Atom or Visual Studio need to be installed.}
