@@ -18,35 +18,39 @@
       <div class="col-md-4">
         <h2>  About Ping Pong</h2>
         <h3 class="h3">Created by:</h3>
-           <p>Naomi Mukuhi</p>
+        <p>Naomi Mukuhi</p>
         <h3 class="h3">GitHub Username/URL</h3>
-          <p id="username">Ommie189</p>
+        <p id="username">Ommie189</p>
         <h3 class="h3">Level 2 Test for:</h3>
-          <p>JavaScript</p>
+        <p>JavaScript</p>
       </div>
 
-  <div class="col-md-8">
-    <h2>Let's Play!</h2>
-    <h3>Rules</h3>
-    <p>Ping-Pong will count up to your number from 1 with the following exceptions:
-      <ol>
-        <li>Numbers divisible by 3 become "ping".</li>
-        <li>Numbers divisible by 5 become "pong"</li>
-        <li>Numbers divisible by 3 and 5 become "pingpong"</li>
-      </ol>
-    </p>
-    <div  class= "form-group">
-      <form id="user-input">
-        <label for="Number">Enter your number here:</label>
-        <input type="Number">
-        <button type="submit" name "button">Go Ping Pong!</button>
-      </form>
-   </div>
-  </div>
-</div>
+      <div class="col-md-8">
+        <h2>Let's Play!</h2>
+        <h3>Rules</h3>
+        <p>Ping-Pong will count up to your number from 1 with the following exceptions:
+          <ol>
+            <li>Numbers divisible by 3 become "ping".</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+          </ol>
+        </p>
+        <form id="userInput" action="index.html" method="get">
+          <div class="form-group">
+            <label for="number">Enter your number here:</label>
+            <input id="change" type="number">
+            <button type="submit" name="button">Go Ping Pong!</button>
+        </form>
+        <div class="result">
+          <ul id="result">
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" ></script>
   <script src="js/scripts.js"></script>
 </body>
 
