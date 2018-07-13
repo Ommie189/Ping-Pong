@@ -1,19 +1,53 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-			  <link rel="stylesheet" type="text/css" href="css/styles.css">
+<!DOCTYPE html>
+<html lang="en">
 
-    <title>Ping-pong</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron">
-      <h1>PING-PONG</h1>
-    </div>
-    </div>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 
-    <script   src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-  </body>
-  </html>
+  <title>Ping-pong</title>
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <h1 class="h1"><b>PING-PONG</b></h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>  About Ping Pong</h2>
+        <h3 class="h3">Created by:</h3>
+           <p>Naomi Mukuhi</p>
+        <h3 class="h3">GitHub Username/URL</h3>
+          <p id="username">Ommie189</p>
+        <h3 class="h3">Level 2 Test for:</h3>
+          <p>JavaScript</p>
+      </div>
+
+  <div class="col-md-8">
+    <h2>Let's Play!</h2>
+    <h3>Rules</h3>
+    <p>Ping-Pong will count up to your number from 1 with the following exceptions:
+      <ol>
+        <li>Numbers divisible by 3 become "ping".</li>
+        <li>Numbers divisible by 5 become "pong"</li>
+        <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+      </ol>
+    </p>
+    <div  class= "form-group">
+      <form id="user-input">
+        <label for="Number">Enter your number here:</label>
+        <input type="Number">
+        <button type="submit" name "button">Go Ping Pong!</button>
+      </form>
+   </div>
+  </div>
+</div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

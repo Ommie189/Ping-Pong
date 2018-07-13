@@ -1,0 +1,17 @@
+.h1{
+  text-align: center;
+  text-emphasis-style: double-circle;
+  font-size: 30px;
+}
+.jumbotron{
+  background-image:url(http://gifimage.net/wp-content/uploads/2018/04/ping-pong-the-animation-gif-10.gif);
+  background-size: 100%;
+  background-position: center;
+  height: 380px;
+}
+.h3{
+  color: maroon;
+}
+#username{
+  color: blue;
+}
